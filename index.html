@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cine</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Bienvenido al cine</h1>
+        <p>
+          Este pequeño proyecto fue hecho para practicar el uso de local
+          storage, por eso su simplicidad.
+        </p>
+      </div>
+      <div class="headerImage">
+        <img src="assets/headerimg.jpg" alt="imagen del header" />
+      </div>
+    </header>
+    <main>
+      <section class="peliculas">
+        <h2>Selecciona una de las películas</h2>
+        <form>
+          <ul>
+            <li><input type="radio" value="Spider man" />Spider man</li>
+            <li><input type="radio" value="Batman" />Batman</li>
+            <li><input type="radio" value="Super cool" /> Super cool</li>
+            <li><input type="radio" value="Fragmentado" />Fragmentado</li>
+            <li>
+              <input type="radio" value="El lobo de wall street" />El lobo de
+              wall street
+            </li>
+          </ul>
+        </form>
+      </section>
+      <section class="listaPeliculas">
+        <h2>Películas seleccionadas</h2>
+        <ul class="seleccionadas"></ul>
+      </section>
+    </main>
+    <footer>
+      <p>Derechos reservados por Bryan <span id="year"></span></p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
